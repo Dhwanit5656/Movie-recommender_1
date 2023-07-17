@@ -29,7 +29,7 @@ st.header('Movie Recommender')
 #movieobj = open('movie_list.pkl','rb')
 movies = pickle.load(open('movie_list.pkl','rb'))
 #simiobj = open('similarity.pkl','rb')
-similarity = pickle.load(open('similarity.pkl','rb')
+similarity = pickle.load(open('similarity.pkl','rb'))
 
 movie_list = movies['title'].values
 selected_movie_name = st.selectbox(
